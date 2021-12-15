@@ -869,8 +869,7 @@ griv00.o : $(DRVDIR)/gadef.h $(DRVDIR)/gmdef.h $(DRVDIR)/gphdef.h
 grivas.o : $(DRVDIR)/gadef.h
 grtv00.o : $(DRVDIR)/imdef.h
 pgxwin.o : $(DRVDIR)/pgxwin.h
-pndriv.o : /usr/include/libpng12/png.h /usr/include/libpng12/pngconf.h /usr/include/zlib.h /usr/include/x86_64-linux-gnu/zconf.h
-#pndriv.o : ./png.h ./pngconf.h ./zlib.h ./zconf.h
+pndriv.o : /usr/include/png.h /usr/include/pngconf.h /usr/include/zlib.h /usr/include/zconf.h
 
 x2driv.o figdisp_comm.o: $(DRVDIR)/commands.h
 
